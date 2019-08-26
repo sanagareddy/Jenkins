@@ -1,8 +1,4 @@
-provider "aws" {
-    region = "ap-south-1"
-    access_key = "AKIATEINLZH4SHVDFJDK"
-    secret_key = "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"
-}
+provider "aws" {}
 
 resource "aws_instance" "jenk" {
     depends_on = ["aws_subnet.Jsub"]
